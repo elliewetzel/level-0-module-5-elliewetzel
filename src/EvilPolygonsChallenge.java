@@ -11,7 +11,7 @@ public class EvilPolygonsChallenge {
 
 		//2. Set the speed to 100
 
-		int colorChoice=JOptionPane.showOptionDialog(null, "hello", "title", JOptionPane.INFORMATION_MESSAGE, JOptionPane.DEFAULT_OPTION, null, new String[]{"Red","Yellow"}, 0);
+		int colorChoice=JOptionPane.showOptionDialog(null, "hello", "title", JOptionPane.INFORMATION_MESSAGE, JOptionPane.DEFAULT_OPTION, null, new String[]{"Color 1","Color 2", "Color 3"}, 0);
 		
 		//3. Set the pen color of the robot according to the value of the colorChoise variable
 		
