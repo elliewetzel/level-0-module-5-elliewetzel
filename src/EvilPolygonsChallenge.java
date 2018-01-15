@@ -17,7 +17,7 @@ public class EvilPolygonsChallenge {
 		
 		//4. Ask the use how many polygons they want to be drawn.
 		
-		//5. Use the robot to draw the number of polygons the user requested. Hint: this may require a nested for loop
+		//5. Use the robot to draw the number of polygons the user requested.
 		
 		//6. Make it so your shapes do not overlap
 
