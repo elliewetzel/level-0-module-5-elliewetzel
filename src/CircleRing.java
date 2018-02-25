@@ -26,7 +26,7 @@ public class CircleRing {
         // 8. If the counter i is divisible by 20 (hint: use mod operator  %)
 
 
-        // 9. Do steps 10 thru 12, 360 times (use j as the counter)
+        // 9. Do steps 10 and 11 360 times (use j as the counter)
 
 		        // 10. Move the robot 1 pixel
 
