@@ -10,16 +10,14 @@ import javax.sound.sampled.Clip;
 
 
 public class Code4Life {
-	/*
-     * Ask the user how many hours they spent coding this week.
-     * 
-     * 1. If it's 3 or more, tell them they're a Code Ninja.
-     * 
-     * 2. If it's less than 2, tell them to stop watching YouTube and write code instead.
-     * 
-     * 3. If it's more than 5, play the Batman theme song.
-     */
-
+	
+	//1.  Ask the user how many hours they spent coding this week.
+	
+	//2.  If it is less than or equal to 2, tell them to stop watching YouTube and write code instead.
+	
+	//3.  If it is greater than or equal to 3 AND less than or equal to 5, tell them they're a Code Ninja
+	
+	//4.  If it is more than 5, call the method below to play the Batman theme song.  
 
     private static void playBatmanTheme() {
     	try {
