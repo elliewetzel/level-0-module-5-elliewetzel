@@ -34,6 +34,7 @@ public class GuessingPi {
 				// HINT: use charAt(0) to get 1st char of user input String
 				if (digit.equals("1")) {
 					System.out.println("Correct");
+					System.out.println("1");
 				} else {
 					System.out.println("Incorrect.  Start over");
 				}
@@ -41,6 +42,17 @@ public class GuessingPi {
 
 				// 8. If they are not, print out "incorrect" and tell them
 				// to start over. Use 'break;' to break out of the loop.
+				break;
+			}
+			for(int u = 0; u < pi.length(); u++) {
+				String number = JOptionPane.showInputDialog("What is the next digit after that?");
+				if(number.equals("5")) {
+					System.out.println("Correct");
+					System.out.println("5");
+				}
+				else {
+					System.out.println("Incorrect. Start over");
+				}
 				break;
 			}
 		}
