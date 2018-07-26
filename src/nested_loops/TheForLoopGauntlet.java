@@ -60,10 +60,27 @@ public static void main(String[] args) {
 	int z = 1;
 	for(int l = 1; l <= 3; l++) {
 		for(int m = z; m <= z+2; m++) {
-			System.out.print(z + " ");
+			System.out.print(m + " ");
 		}
 		System.out.println();
 		z+=3;
+		break;
 	}
+	int o = 1; 
+	for(int n = 1; n <= 11; n++) {
+		for(int p = o; p <= o+9; p++) {
+			System.out.print(p + " ");
+		}
+		System.out.println();
+		o+=9;
+		break;
+	}
+	for(int r = 0; r < 6; r++) {
+		for(int s = 0; s<=r; s++) {
+			System.out.print("*" + " ");
+		}
+		System.out.println();
+	}
+	
 }
 }
