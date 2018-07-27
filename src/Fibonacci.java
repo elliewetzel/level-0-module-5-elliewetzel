@@ -1,6 +1,6 @@
 
 public class Fibonacci {
-	public static void main(String[] args) {
+	public static <random> void main(String[] args) {
 		long a = 0;
 		long b = 1;
 		System.out.println(a);
@@ -11,5 +11,7 @@ public class Fibonacci {
 			a = temp;
 			System.out.println(b);
 		}
+		
+		
 	}
 }
